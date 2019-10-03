@@ -1,0 +1,42 @@
+
+	CS 321 : Computer Peripherals and Interfacing Lab
+
+			Assignment - 6
+		
+			  Group 10
+
+	1. Rashi Singh   - 170101052
+	2. Soumik Paul   - 170101066
+	3. Aniket Rajput - 170101007
+	4. Aayush Patni  - 170101001
+
+Steps to configure kit and run the program:
+
+1. Download the .asm files from here : https://drive.google.com/open?id=1qdckG4TJEpyqrWJtO0gNKLQKyPpix_Gq
+2. Copy them to the directory esa-xt85 in your local machine.
+3. Use command "c16 -h 1.hex -l 1.lst 1.asm" and "c16 -h 2.hex -l 2.lst 2.asm" in command prompt
+4. Switch no. 4 should be turned to serial mode.
+5. Download the hex file into the kit using xt85.exe, one at a time.
+6. Switch no. 4 should be turned back to initial position.
+7. Connect the Stepper Motor circuit to J1 port.
+8. Connect the ADC to port J2
+9. Connect the Function generator to ADC.
+
+Steps to run program 1:
+
+1. Select a waveform with maximum amplitude less than or equal to 3.5V.
+2. Press "Go" and enter "9000" via keyboard, then press "Exec".
+3. The speed of rotation of shaft (rpm)n is directly proportional to input analog voltage given. 
+4. The corresponding digital equivalent of input is displayed on the data field of kit.
+
+Steps to run program 2:
+
+1. Select a dc voltage of 0V and align the dial correctly.
+2. Select a constant voltage waveform (square wave with very low frequency) with voltage between 0-3.1V.
+3. Press "Go" and enter "9000" via keyboard, then press "Exec".
+4. The pointer rotates by an angle proportional to the input voltage.
+5. You may change input voltage, then press "Go" to see changes in pointer angle.
+6. Input voltage greater than 3.1V will cause rotation of more than 360 degrees.
+
+
+Note : Answers to bonus questions provided in separate file.
